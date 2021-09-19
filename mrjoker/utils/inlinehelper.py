@@ -48,7 +48,7 @@ async def paste(content):
 async def inline_help_func(__HELP__):
     buttons = InlineKeyboard(row_width=2)
     buttons.add(
-        InlineKeyboardButton("🤡 𝗚𝗲𝘁 𝗠𝗼𝗿𝗲 𝗛𝗲𝗹𝗽 🤡", url=f"t.me/{BOT_USERNAME}?start=start"),
+        InlineKeyboardButton("🦋 𝗚𝗲𝘁 𝗠𝗼𝗿𝗲 𝗛𝗲𝗹𝗽 🦋", url=f"t.me/{BOT_USERNAME}?start=start"),
         InlineKeyboardButton("💥 𝗚𝗼 𝗜𝗻𝗹𝗶𝗻𝗲! 💥", switch_inline_query_current_chat=""),
     )
     answerss = [
@@ -56,7 +56,7 @@ async def inline_help_func(__HELP__):
             title="𝐈𝐧𝐥𝐢𝐧𝐞 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬",
             description="𝗛𝗲𝗹𝗽 𝗥𝗲𝗹𝗮𝘁𝗲𝗱 𝗧𝗼 𝗜𝗻𝗹𝗶𝗻𝗲 𝗨𝘀𝗮𝗴𝗲.",
             input_message_content=InputTextMessageContent(__HELP__),
-            thumb_url="https://telegra.ph/file/db7774c281ec098b07b09.jpg",
+            thumb_url="https://telegra.ph/file/f6ec33adb6fadd8342eac.jpg",
             reply_markup=buttons,
         )
     ]
@@ -69,12 +69,12 @@ async def alive_function(answers):
     bot_state = "Dead" if not await app.get_me() else "Alive"
     # ubot_state = 'Dead' if not await app2.get_me() else 'Alive'
     buttons.add(
-        InlineKeyboardButton("🤡 𝐌𝐚𝐢𝐧 𝐁𝐨𝐭 🤡", url="https://t.me/mrjokerpro_bot"),
+        InlineKeyboardButton("🦋 𝐌𝐚𝐢𝐧 𝐁𝐨𝐭 🦋", url="https://t.me/LyciRobot"),
         InlineKeyboardButton("💥 𝗚𝗼 𝗜𝗻𝗹𝗶𝗻𝗲! 💥", switch_inline_query_current_chat=""),
     )
 
     msg = f"""
-**[๓r.ว໐kēr 🤡](https://github.com/kjeymax/MR-JOKER_BOT):**
+**[lyciRobot 🦋](https://t.me/LyciRobot):**
 **MainBot:** `{bot_state}`
 **UserBot:** `Alive`
 **Python:** `3.9`
@@ -87,7 +87,7 @@ async def alive_function(answers):
         InlineQueryResultArticle(
             title="Alive",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/2934c4f5c0d7d2b882c88.jpg",
+            thumb_url="https://telegra.ph/file/f6ec33adb6fadd8342eac.jpg",
             input_message_content=InputTextMessageContent(
                 msg, disable_web_page_preview=True
             ),
