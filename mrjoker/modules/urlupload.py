@@ -34,7 +34,7 @@ async def download_coroutine(session, url, file_name, event, start, bot):
 **URL:** {}
 **File Name:** {}
 **File Size:** {}
-**© @mrjokerpro_bot**""".format(
+**© @LyciRobot**""".format(
                 url,
                 os.path.basename(file_name).replace("%20", " "),
                 humanbytes(total_length),
@@ -153,7 +153,7 @@ async def tsh(event):
 
             str(time.time() - start)
             await orta.edit(
-                f"File Successfully Uploaded to TransferSh.\n\nLink 👉 {download_link}\n*Expired Date* 👉 {final_date}\n\nUploaded by **MR.JOKER ROBOT**"
+                f"File Successfully Uploaded to TransferSh.\n\nLink 👉 {download_link}\n*Expired Date* 👉 {final_date}\n\nUploaded by **lyciRobot**"
             )
         except Exception as e:
             traceback.print_exc()
