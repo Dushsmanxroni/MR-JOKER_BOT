@@ -62,7 +62,7 @@ async def hmm(_, message):
             await lel.edit("mrjoker AI Already Activated In This Chat")
             return
         await lel.edit(
-            f"mrjoker AI Successfully Added For Users In The Chat {message.chat.id}"
+            f"lyci AI Successfully Added For Users In The Chat {message.chat.id}"
         )
 
     elif status == "OFF" or status == "off" or status == "Off":
@@ -72,7 +72,7 @@ async def hmm(_, message):
             await lel.edit("mrjoker AI Was Not Activated In This Chat")
             return
         await lel.edit(
-            f"mrjoker AI Successfully Deactivated For Users In The Chat {message.chat.id}"
+            f"lyci AI Successfully Deactivated For Users In The Chat {message.chat.id}"
         )
 
     elif status == "EN" or status == "en" or status == "english":
@@ -352,7 +352,7 @@ async def kaj(client, message):
 
 
 __help__ = """
-╔Mr.Joker AI IS THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES
+╔lyci AI IS THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES
 ╠ `/chatbot` [ON/OFF]: Enables and disables AI Chat mode (EXCLUSIVE)
 ╠ `/chatbot` `EN` : Enables English only chatbot
  
