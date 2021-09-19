@@ -54,7 +54,7 @@ __help__ = """
 
 **I'm more efficient when added as group admin. By the way these commands can be used by anyone in a group via inline**[SDSD.](https://telegra.ph/file/7b406588473aa764e58db.jpg)
 ──「 Syntax 」──
-@Mrjokerlk_bot [command] [query]
+@LyciRobot [command] [query]
 
 ╔ **Commands Available**
 ╠ `alive` - Check Bot's Stats.
@@ -95,11 +95,11 @@ __MODULE__ = "Inline Mode"
 __HELP__ = """
 ⚊❮❮❮❮ ｢INLINE BOT SERVICE」❯❯❯❯⚊
 
-[.](https://telegra.ph/file/7b406588473aa764e58db.jpg)
+[.](https://telegra.ph/file/f6ec33adb6fadd8342eac.jpg)
 `I'm more efficient when added as group admin. By the way these commands can be used by anyone in a group via inline`
    >> **Syntax** <<
    
-@Mrjokerlk_bot [command] [query]
+@LyciRobot [command] [query]
 
    >> **Commands Available** <<
 🔹 **alive** - __Check Bot's Stats.__
