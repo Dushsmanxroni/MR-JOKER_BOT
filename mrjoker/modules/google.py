@@ -282,7 +282,7 @@ __help__ = """
  🔹 `/img` <text>*:* Search Google for images and returns them\nFor greater no. of results specify lim, For eg: `/img hello lim=10`
  🔹 `/app` <appname>*:* Searches for an app in Play Store and returns its details.
  🔹 `/country` <country name>*:* Gathering info about given country
- 🔹 `/Yone` <query>*:* Yone answers the query
+ 🔹 `/lyci` <query>*:* Yone answers the query
   
-  💡Ex: `Yone where is Sri Lanka?`
+  💡Ex: `lyci where is Sri Lanka?`
 """
