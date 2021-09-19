@@ -17,7 +17,7 @@ async def lego(event):
        return
     else:
        pass
- await event.reply('Creating your logo...wait!🤡')
+ await event.reply('Creating your logo...wait!🦋')
  try:
     text = event.pattern_match.group(1)
     img = Image.open('./mrjoker/pack/blackimg.jpg')
@@ -36,11 +36,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="yellow", stroke_width=25, stroke_fill="white")
     fname2 = "LogoMakeBy_MRJOKER.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="🤡")
+    await tbot.send_file(event.chat_id, fname2, caption="🦋")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Report @lkhitech, {e}')
+   await event.reply(f'Error Report @tzkid, {e}')
 
 
 
@@ -57,7 +57,7 @@ async def lego(event):
        return
     else:
        pass
- await event.reply('Creating your logo...wait!🤡')
+ await event.reply('Creating your logo...wait!🦋')
  try:
     text = event.pattern_match.group(1)
     img = Image.open('./mrjoker/pack/fjoker.jpg')
@@ -76,11 +76,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="white", stroke_width=0, stroke_fill="DarkViolet")
     fname2 = "LogoMakeBy_MRJOKER.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="🤡")
+    await tbot.send_file(event.chat_id, fname2, caption="🦋")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Report @lkhitech, {e}')
+   await event.reply(f'Error Report @tzkid, {e}')
 
    
 @register(pattern="^/blogo ?(.*)")
@@ -95,7 +95,7 @@ async def lego(event):
        return
     else:
        pass
- await event.reply('Creating your logo...wait!🤡')
+ await event.reply('Creating your logo...wait!🦋')
  try:
     text = event.pattern_match.group(1)
     img = Image.open('./mrjoker/pack/2.jpg')
@@ -114,11 +114,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="DarkMagenta", stroke_width=0, stroke_fill="Gainsboro")
     fname2 = "LogoMakeBy_MRJOKER.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="🤡")
+    await tbot.send_file(event.chat_id, fname2, caption="🦋")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Report @lkhitech, {e}')   
+   await event.reply(f'Error Report @tzkid, {e}')   
    
    
    
