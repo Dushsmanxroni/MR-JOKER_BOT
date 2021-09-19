@@ -418,7 +418,7 @@ def mrjoker_about_callback(update, context):
     elif query.data == "mrjoker_admin":
         query.message.edit_text(
             text=f"*Let's make your group bit effective now*"
-            f"\nCongragulations, MⷨRͬ.JOͦᴋⷦEͤRͬ now ready to manage your group."
+            f"\nCongragulations, lyci now ready to manage your group."
             f"\n\n*Admin Tools*"
             f"\nBasic Admin tools help you to protect and powerup your group."
             f"\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -445,7 +445,7 @@ def mrjoker_about_callback(update, context):
         )
     elif query.data == "mrjoker_support":
         query.message.edit_text(
-            text="* MⷨRͬ.JOͦᴋⷦEͤRͬ support chats*"
+            text="* lyci support chats*"
             "\nJoin Support Group/Channel",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -467,7 +467,7 @@ def mrjoker_about_callback(update, context):
         
     elif query.data == "mrjoker_credit":
         query.message.edit_text(
-            text=f"<b> CREDIT FOR MⷨRͬ.JOͦᴋⷦEͤRͬ DEV'S</b>\n"
+            text=f"<b> CREDIT FOR lyci DEV'S</b>\n"
             f"\nHere Some Developers Helping in Making The lyci Bot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
