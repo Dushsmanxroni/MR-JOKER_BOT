@@ -69,20 +69,20 @@ async def kaj(_, message):
         lel = await edit_or_reply(message, "`Processing...`")
         lol = add_chat(int(message.chat.id))
         if not lol:
-            await lel.edit("Mr.JokerAI Already Activated In This Chat")
+            await lel.edit("Lyci AI Already Activated In This Chat")
             return
         await lel.edit(
-            f"Mr.Joker AI Successfully Added For Users In The Chat {message.chat.id}"
+            f"Lyci AI Successfully Added For Users In The Chat {message.chat.id}"
         )
 
     elif status == "OFF" or status == "off" or status == "Off":
         lel = await edit_or_reply(message, "`Processing...`")
         Escobar = remove_chat(int(message.chat.id))
         if not Escobar:
-            await lel.edit("Mr.Joker AI Was Not Activated In This Chat")
+            await lel.edit("Lyci AI Was Not Activated In This Chat")
             return
         await lel.edit(
-            f"Mr.Joker AI Successfully Deactivated For Users In The Chat {message.chat.id}"
+            f"Lyci AI Successfully Deactivated For Users In The Chat {message.chat.id}"
         )
 
     elif status == "EN" or status == "en" or status == "english":
@@ -100,8 +100,8 @@ async def kaj(_, message):
 @mrjoker.on_message(filters.command("repo") & ~filters.edited)
 async def repo(_, message):
     await message.reply_text(
-        "[GitHub](https://github.com/kjeymax/MR-JOKER_BOT)"
-        + " | [HITECH Group](t.me/hitechlkgroup)",
+        "[GitHub](https://github.com/tz-kid/tz-kid)"
+        + " | [kid Group](t.me/tzkid)",
         disable_web_page_preview=True,
     )
 
@@ -134,13 +134,13 @@ async def kaj(client, message):
         message.continue_propagation()
     if chat_id in en_chats:
         test = msg
-        test = test.replace("mrjoker", "Aco")
-        test = test.replace("Mrjoker", "Aco")
+        test = test.replace("lyci", "Aco")
+        test = test.replace("lyci", "Aco")
         response = await lunaQuery(
             test, message.from_user.id if message.from_user else 0
         )
-        response = response.replace("Aco", "Mrjoker")
-        response = response.replace("aco", "Mrjoker")
+        response = response.replace("Aco", "lyci")
+        response = response.replace("aco", "lyci")
 
         pro = response
         try:
@@ -191,15 +191,15 @@ async def kaj(client, message):
             except:
                 return
 
-        test = test.replace("mrjoker", "Aco")
-        test = test.replace("Mrjoker", "Aco")
+        test = test.replace("lyci", "Aco")
+        test = test.replace("lyci", "Aco")
         response = await lunaQuery(
             test, message.from_user.id if message.from_user else 0
         )
-        response = response.replace("Aco", "Mrjoker")
-        response = response.replace("aco", "Mrjoker")
-        response = response.replace("Luna", "Mrjoker")
-        response = response.replace("luna", "Mrjoker")
+        response = response.replace("Aco", "lyci")
+        response = response.replace("aco", "lyci")
+        response = response.replace("Luna", "lyci")
+        response = response.replace("luna", "lyci")
         pro = response
         if not "en" in lan and not lan == "":
             try:
@@ -262,12 +262,12 @@ async def kaj(client, message):
         except:
             return
 
-    test = test.replace("mrjoker", "Aco")
-    test = test.replace("Mrjoker", "Aco")
+    test = test.replace("lyci", "Aco")
+    test = test.replace("lyci", "Aco")
 
     response = await lunaQuery(test, message.from_user.id if message.from_user else 0)
-    response = response.replace("Aco", "Mrjoker")
-    response = response.replace("aco", "Mrjoker")
+    response = response.replace("Aco", "Lyci")
+    response = response.replace("aco", "Lyci")
 
     pro = response
     if not "en" in lan and not lan == "":
@@ -281,7 +281,7 @@ async def kaj(client, message):
 
 
 @mrjoker.on_message(
-    filters.regex("Mrjoker|mrjoker|mrjoker|MRJOKER|mrjoker")
+    filters.regex("lyci|lyci|Lyci|LYCI|lyci")
     & ~filters.bot
     & ~filters.via_bot
     & ~filters.forwarded
@@ -334,11 +334,11 @@ async def kaj(client, message):
         except:
             return
 
-    test = test.replace("mrjoker", "Aco")
-    test = test.replace("Mrjoker", "Aco")
+    test = test.replace("lyci", "Aco")
+    test = test.replace("lyci", "Aco")
     response = await lunaQuery(test, message.from_user.id if message.from_user else 0)
-    response = response.replace("Aco", "Mrjoker")
-    response = response.replace("aco", "Mrjoker")
+    response = response.replace("Aco", "Lyci")
+    response = response.replace("aco", "Lyci")
 
     pro = response
     if not "en" in lan and not lan == "":
@@ -355,12 +355,12 @@ async def kaj(client, message):
 
 
 __help__ = """
-*Mr.Joker AI Chatbot* 
+*Lyci AI Chatbot* 
 
  🔹 `/chatbot` [ON/OFF]: Enables and disables AI Chat mode (EXCLUSIVE)
  🔹 `/chatbot EN `: Enables English only chatbot
  
-Powered by : [Luna ChatBot](https://github.com/TheHamkerCat/LunaChatBot)
+Powered by : [Lyci ChatBot](https://t.me/tzkid)
 
 """
 
