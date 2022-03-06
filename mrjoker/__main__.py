@@ -93,7 +93,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="➕ 𝐀𝐃𝐃 𝐋𝐘𝐂𝐈 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕", url="http://t.me/LyciRobot?startgroup=true"),
+        InlineKeyboardButton(text="➕ 𝐀𝐃𝐃 𝐋𝐘𝐂𝐈 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕", url="http://t.me/Ronin_fighters_fd?startgroup=true"),
     ],
 ]
 
